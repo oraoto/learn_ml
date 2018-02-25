@@ -1,6 +1,4 @@
-# Intel® Movidius™ Neural Compute Stick examples
-
-Inspired by 
+# Intel® Movidius™ NCS examples
 
 ## MNIST with Keras
 
