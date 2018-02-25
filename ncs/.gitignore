@@ -1,0 +1,6 @@
+output*
+*.h5
+*.json
+logs
+TF_Model
+graph
