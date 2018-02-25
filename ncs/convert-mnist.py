@@ -1,7 +1,4 @@
-from keras import layers
-from keras import models
-from keras.datasets import mnist
-from keras.utils import to_categorical
+from keras.models import model_from_json
 from keras import backend as K
 import tensorflow as tf
 
@@ -12,7 +9,7 @@ with open(model_file, "r") as file:
     config = file.read()
 
 K.set_learning_phase(0)
-model = models.model_from_json(config)
+model = model_from_json(config)
 model.load_weights(weights_file)
 
 saver = tf.train.Saver()
