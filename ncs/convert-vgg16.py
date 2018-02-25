@@ -7,7 +7,6 @@ import tensorflow as tf
 mn = VGG16()
 saver = tf.train.Saver()
 sess = K.get_session()
-sess.run(tf.global_variables_initializer())
 saver.save(sess, "./TF_Model/vgg16")
 
 fw = tf.summary.FileWriter('logs', sess.graph)
