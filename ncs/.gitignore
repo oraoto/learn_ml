@@ -4,3 +4,4 @@ output*
 logs
 TF_Model
 graph
+data
