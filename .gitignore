@@ -1,0 +1,11 @@
+*.h5
+*.csv
+*.txt
+
+settings.json
+
+gan-mnist
+sklearn
+chatterbot
+mkl-dnn
+mmdnn
